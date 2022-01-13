@@ -180,7 +180,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-.adress-link {
+.address-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -194,6 +194,13 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
 }
 
 /* -----------Portfolio------------ */
