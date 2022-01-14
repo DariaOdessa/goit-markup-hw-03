@@ -100,6 +100,7 @@ a {
   letter-spacing: 0.06em;
   color: var(--second-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* -----------Features------------ */
@@ -123,7 +124,7 @@ a {
 /* -----------About------------ */
 
 .about-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -153,8 +154,12 @@ a {
   letter-spacing: 0.03em;
 }
 
-.team-list-title {
+.team-item-title {
   font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--header-text-color);
 }
 
@@ -213,6 +218,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--header-text-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .filter-btn:hover,
@@ -230,8 +236,6 @@ a {
 }
 
 .portfolio-text {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
